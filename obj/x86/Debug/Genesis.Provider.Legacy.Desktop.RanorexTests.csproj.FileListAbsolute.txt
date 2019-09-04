@@ -1,0 +1,11 @@
+C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\bin\Debug\Genesis.Provider.Legacy.Desktop.RanorexTests.rxtmg
+C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\bin\Debug\Genesis.Provider.Legacy.Desktop.RanorexTests.rxtst
+C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\bin\Debug\Genesis.Provider.Legacy.Desktop.RanorexTests.exe.config
+C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\bin\Debug\Genesis.Provider.Legacy.Desktop.RanorexTests.xml
+C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\bin\Debug\Genesis.Provider.Legacy.Desktop.RanorexTests.exe
+C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\bin\Debug\Genesis.Provider.Legacy.Desktop.RanorexTests.pdb
+C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\obj\x86\Debug\Genesis.Provider.Legacy.Desktop.RanorexTests.csprojResolveAssemblyReference.cache
+C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\obj\x86\Debug\Genesis.Provider.Legacy.Desktop.RanorexTests.exe
+C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\obj\x86\Debug\Genesis.Provider.Legacy.Desktop.RanorexTests.pdb
+C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\bin\Debug\Genesis.Provider.Legacy.Desktop.RanorexTests.rxsqc

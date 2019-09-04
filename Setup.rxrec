@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4a188b4d-68a4-4fd5-8d0e-879f4018da39"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Setup"
+	namespace="Genesis.Provider.Legacy.Desktop.RanorexTests">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="ab3deee2-1ef7-4662-a7f6-05e9cad6d967"
+	name="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository"
+	relativepath="Genesis.Provider.Legacy.Desktop.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository"
+		namespace="Genesis.Provider.Legacy.Desktop.RanorexTests">
+		</codegen>
+		<rootfolder
+		id="b589f26a-272d-4afa-92e6-d44d7c9209ae"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Setup.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

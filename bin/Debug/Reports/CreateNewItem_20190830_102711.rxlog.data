@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="48.34s"
+		durationms="48341"
+		type="root"
+		rid="651da6b28edac0"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="AbhishekKumar"
+		rxversion="9.1.1.0"
+		host="DESKTOP-FSTSIKQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="7200x1350"
+		timestamp="30/08/2019 10:27:14"
+		timestampiso="2019-08-30T09:27:14"
+		endtime="30/08/2019 10:28:02"
+		timeoutfactor="1"
+		module="CreateNewItem">
+		<detail>
+			CreateNewItem
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.129"
+			timeRelativeToTestModuleStartTime="00:05.129"
+			timeWallClock="10:27:19"
+			time="00:05.129"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NewVariable
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.177"
+			timeRelativeToTestModuleStartTime="00:05.177"
+			timeWallClock="10:27:19"
+			time="00:05.177"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence ' ' with focus on 'GenesisAutomation.TextMaskBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']//element[@controlname='teFind']/text[@controlname='_maskBox']"
+				itempath=".//element[@controlname='teFind']/text[@controlname='_maskBox']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.GenesisAutomation.TextMaskBox"
+				id="0fa7e397bc5a42f0b67bf0cb91f9343f"
+				timeout="60000"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.968"
+			timeRelativeToTestModuleStartTime="00:09.968"
+			timeWallClock="10:27:24"
+			time="00:09.968"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 10976)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.343"
+			timeRelativeToTestModuleStartTime="00:48.343"
+			timeWallClock="10:28:02"
+			time="00:48.343"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

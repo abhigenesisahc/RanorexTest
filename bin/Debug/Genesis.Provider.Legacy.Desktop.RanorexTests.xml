@@ -1,0 +1,2124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Genesis.Provider.Legacy.Desktop.RanorexTests</name>
+    </assembly>
+    <members>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateNewItem">
+             <summary>
+            The CreateNewItem recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateNewItem.repo">
+            <summary>
+            Holds an instance of the Genesis_Provider_Legacy_Desktop_RanorexTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateNewItem.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateNewItem.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateNewItem.NewVariable">
+            <summary>
+            Gets or sets the value of variable NewVariable.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateNewItem.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateNewItem.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateNewItem.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="F:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateNewItem.rng">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+            
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateReleasePOTeardown">
+             <summary>
+            The CreateReleasePOTeardown recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateReleasePOTeardown.repo">
+            <summary>
+            Holds an instance of the Genesis_Provider_Legacy_Desktop_RanorexTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateReleasePOTeardown.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateReleasePOTeardown.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateReleasePOTeardown.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateReleasePOTeardown.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateReleasePOTeardown.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateReleasePOTeardown.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateRequisition">
+             <summary>
+            The CreateRequisition recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateRequisition.repo">
+            <summary>
+            Holds an instance of the Genesis_Provider_Legacy_Desktop_RanorexTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateRequisition.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateRequisition.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateRequisition.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateRequisition.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateRequisition.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.CreateRequisition.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository">
+            <summary>
+            The class representing the Genesis_Provider_Legacy_Desktop_RanorexTestsRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Genesis_Provider_Legacy_Desktop_RanorexTestsRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.FrmLogin">
+            <summary>
+            The FrmLogin folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.FrmMain">
+            <summary>
+            The FrmMain folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.FrmCreateRequisition">
+            <summary>
+            The FrmCreateRequisition folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.GenesisAutomation">
+            <summary>
+            The GenesisAutomation folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.GenesisAutomation1">
+            <summary>
+            The GenesisAutomation1 folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.PurchaseOrder">
+            <summary>
+            The PurchaseOrder folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.TheTestSuiteStructureRanorexStudi">
+            <summary>
+            The TheTestSuiteStructureRanorexStudi folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.JumpListForGenesisAutomation">
+            <summary>
+            The JumpListForGenesisAutomation folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.Cortana">
+            <summary>
+            The Cortana folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.NewTab">
+            <summary>
+            The NewTab folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.Blank">
+            <summary>
+            The Blank folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.FrmCreateItemWizard">
+            <summary>
+            The FrmCreateItemWizard folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.Explorer1">
+            <summary>
+            The Explorer1 folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.FrmCreateItemWizard1">
+            <summary>
+            The FrmCreateItemWizard1 folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder">
+            <summary>
+            The FrmLoginAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmLogin  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.NoCapsMsgTextBoxMaskBox">
+            <summary>
+            The NoCapsMsgTextBoxMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.NoCapsMsgTextBoxMaskBoxInfo">
+            <summary>
+            The NoCapsMsgTextBoxMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.SignIn">
+            <summary>
+            The SignIn item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.SignInInfo">
+            <summary>
+            The SignIn item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.TextMaskBox">
+            <summary>
+            The TextMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.TextMaskBoxInfo">
+            <summary>
+            The TextMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.BtnLogin">
+            <summary>
+            The BtnLogin item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.BtnLoginInfo">
+            <summary>
+            The BtnLogin item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.CopyrightC2019GenesisAutomationAll">
+            <summary>
+            The CopyrightC2019GenesisAutomationAll item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.CopyrightC2019GenesisAutomationAllInfo">
+            <summary>
+            The CopyrightC2019GenesisAutomationAll item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder">
+            <summary>
+            The FrmMainAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmMain  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.CreateRequisition">
+            <summary>
+            The CreateRequisition item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.CreateRequisitionInfo">
+            <summary>
+            The CreateRequisition item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.NewOrders">
+            <summary>
+            The NewOrders item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.NewOrdersInfo">
+            <summary>
+            The NewOrders item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.ReleaseRow0">
+            <summary>
+            The ReleaseRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.ReleaseRow0Info">
+            <summary>
+            The ReleaseRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.Ribbon">
+            <summary>
+            The Ribbon item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.RibbonInfo">
+            <summary>
+            The Ribbon item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.ChartBarTransactions">
+            <summary>
+            The ChartBarTransactions item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.ChartBarTransactionsInfo">
+            <summary>
+            The ChartBarTransactions item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.TransactionData">
+            <summary>
+            The TransactionData item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.TransactionDataInfo">
+            <summary>
+            The TransactionData item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.Orders">
+            <summary>
+            The Orders item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.OrdersInfo">
+            <summary>
+            The Orders item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.Tasks">
+            <summary>
+            The Tasks item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.TasksInfo">
+            <summary>
+            The Tasks item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmMainAppFolder.SplitControl">
+            <summary>
+            The SplitControl folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SplitControlFolder">
+            <summary>
+            The SplitControlFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SplitControlFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SplitControl  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SplitControlFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SplitControlFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SplitControlFolder.OutstandingOrders">
+            <summary>
+            The OutstandingOrders item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SplitControlFolder.OutstandingOrdersInfo">
+            <summary>
+            The OutstandingOrders item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SplitControlFolder.DataPanel">
+            <summary>
+            The DataPanel item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SplitControlFolder.DataPanelInfo">
+            <summary>
+            The DataPanel item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SplitControlFolder.GoodsReceiptRow0">
+            <summary>
+            The GoodsReceiptRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SplitControlFolder.GoodsReceiptRow0Info">
+            <summary>
+            The GoodsReceiptRow0 item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder">
+            <summary>
+            The FrmCreateRequisitionAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmCreateRequisition  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.Open">
+            <summary>
+            The Open item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.OpenInfo">
+            <summary>
+            The Open item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.Open1">
+            <summary>
+            The Open1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.Open1Info">
+            <summary>
+            The Open1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.AddRequisition">
+            <summary>
+            The AddRequisition item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.AddRequisitionInfo">
+            <summary>
+            The AddRequisition item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.Confirm">
+            <summary>
+            The Confirm item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.ConfirmInfo">
+            <summary>
+            The Confirm item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.Item">
+            <summary>
+            The Item item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.ItemInfo">
+            <summary>
+            The Item item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.Close1">
+            <summary>
+            The Close1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.Close1Info">
+            <summary>
+            The Close1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.Items">
+            <summary>
+            The Items item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateRequisitionAppFolder.ItemsInfo">
+            <summary>
+            The Items item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder">
+            <summary>
+            The GenesisAutomationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GenesisAutomation  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow9">
+            <summary>
+            The DescriptionRow9 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow9Info">
+            <summary>
+            The DescriptionRow9 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow0">
+            <summary>
+            The DescriptionRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow0Info">
+            <summary>
+            The DescriptionRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow1">
+            <summary>
+            The DescriptionRow1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow1Info">
+            <summary>
+            The DescriptionRow1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.Row2">
+            <summary>
+            The Row2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.Row2Info">
+            <summary>
+            The Row2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.Row1">
+            <summary>
+            The Row1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.Row1Info">
+            <summary>
+            The Row1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.ApplicationFrameInputSinkWindow">
+            <summary>
+            The ApplicationFrameInputSinkWindow item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.ApplicationFrameInputSinkWindowInfo">
+            <summary>
+            The ApplicationFrameInputSinkWindow item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.TESTKITSANDSTRIPS">
+            <summary>
+            The TESTKITSANDSTRIPS item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.TESTKITSANDSTRIPSInfo">
+            <summary>
+            The TESTKITSANDSTRIPS item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.TextMaskBox">
+            <summary>
+            The TextMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.TextMaskBoxInfo">
+            <summary>
+            The TextMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomationAppFolder.SearchEditLookUpPopup">
+            <summary>
+            The SearchEditLookUpPopup folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder">
+            <summary>
+            The SearchEditLookUpPopupFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SearchEditLookUpPopup  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.GridControl">
+            <summary>
+            The GridControl item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.GridControlInfo">
+            <summary>
+            The GridControl item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.DataPanel">
+            <summary>
+            The DataPanel item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.DataPanelInfo">
+            <summary>
+            The DataPanel item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.DescriptionRow3">
+            <summary>
+            The DescriptionRow3 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.DescriptionRow3Info">
+            <summary>
+            The DescriptionRow3 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.PreferredSupplierRow3">
+            <summary>
+            The PreferredSupplierRow3 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.PreferredSupplierRow3Info">
+            <summary>
+            The PreferredSupplierRow3 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.DescriptionRow6">
+            <summary>
+            The DescriptionRow6 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.DescriptionRow6Info">
+            <summary>
+            The DescriptionRow6 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.PreferredSupplierRow10">
+            <summary>
+            The PreferredSupplierRow10 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.PreferredSupplierRow10Info">
+            <summary>
+            The PreferredSupplierRow10 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.DescriptionRow12">
+            <summary>
+            The DescriptionRow12 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.DescriptionRow12Info">
+            <summary>
+            The DescriptionRow12 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.LabelControl1">
+            <summary>
+            The LabelControl1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.LabelControl1Info">
+            <summary>
+            The LabelControl1 item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder">
+            <summary>
+            The GenesisAutomation1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GenesisAutomation1  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.ButtonYes">
+            <summary>
+            The ButtonYes item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.ButtonYesInfo">
+            <summary>
+            The ButtonYes item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.DetailsRow0">
+            <summary>
+            The DetailsRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.DetailsRow0Info">
+            <summary>
+            The DetailsRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.RibbonStatusBar">
+            <summary>
+            The RibbonStatusBar item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.RibbonStatusBarInfo">
+            <summary>
+            The RibbonStatusBar item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.FooterPanel">
+            <summary>
+            The FooterPanel item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.FooterPanelInfo">
+            <summary>
+            The FooterPanel item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.Stock">
+            <summary>
+            The Stock item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.StockInfo">
+            <summary>
+            The Stock item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.NewItemWizard">
+            <summary>
+            The NewItemWizard item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.GenesisAutomation1AppFolder.NewItemWizardInfo">
+            <summary>
+            The NewItemWizard item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder">
+            <summary>
+            The PurchaseOrderAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PurchaseOrder  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.CloseWindow">
+            <summary>
+            The CloseWindow item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.CloseWindowInfo">
+            <summary>
+            The CloseWindow item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.ReceiptRow0">
+            <summary>
+            The ReceiptRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.ReceiptRow0Info">
+            <summary>
+            The ReceiptRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.TextMaskBox">
+            <summary>
+            The TextMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.TextMaskBoxInfo">
+            <summary>
+            The TextMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.Receive">
+            <summary>
+            The Receive item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.ReceiveInfo">
+            <summary>
+            The Receive item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.CloseWindow1">
+            <summary>
+            The CloseWindow1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.CloseWindow1Info">
+            <summary>
+            The CloseWindow1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.Close1">
+            <summary>
+            The Close1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.Close1Info">
+            <summary>
+            The Close1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.GenesisAccount">
+            <summary>
+            The GenesisAccount item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.GenesisAccountInfo">
+            <summary>
+            The GenesisAccount item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.GenesisE2e">
+            <summary>
+            The GenesisE2e item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.GenesisE2eInfo">
+            <summary>
+            The GenesisE2e item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.TestConnection">
+            <summary>
+            The TestConnection item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.TestConnectionInfo">
+            <summary>
+            The TestConnection item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.Save">
+            <summary>
+            The Save item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.SaveInfo">
+            <summary>
+            The Save item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.Exit">
+            <summary>
+            The Exit item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.ExitInfo">
+            <summary>
+            The Exit item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.Body">
+            <summary>
+            The Body item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.BodyInfo">
+            <summary>
+            The Body item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.System">
+            <summary>
+            The System item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.SystemInfo">
+            <summary>
+            The System item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.BtnNext">
+            <summary>
+            The BtnNext item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.BtnNextInfo">
+            <summary>
+            The BtnNext item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.SimpleButton">
+            <summary>
+            The SimpleButton item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.SimpleButtonInfo">
+            <summary>
+            The SimpleButton item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.SimpleButton1">
+            <summary>
+            The SimpleButton1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.SimpleButton1Info">
+            <summary>
+            The SimpleButton1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.DdlUOMDefault">
+            <summary>
+            The DdlUOMDefault item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.DdlUOMDefaultInfo">
+            <summary>
+            The DdlUOMDefault item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.MasterData">
+            <summary>
+            The MasterData item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.MasterDataInfo">
+            <summary>
+            The MasterData item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.WpItem">
+            <summary>
+            The WpItem folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.PurchaseOrderAppFolder.UcStep3LocationProfile">
+            <summary>
+            The UcStep3LocationProfile folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder">
+            <summary>
+            The WpItemFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WpItem  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.TextAAH">
+            <summary>
+            The TextAAH item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.TextAAHInfo">
+            <summary>
+            The TextAAH item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlAccountCode">
+            <summary>
+            The DdlAccountCode item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlAccountCodeInfo">
+            <summary>
+            The DdlAccountCode item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlItemBodySide">
+            <summary>
+            The DdlItemBodySide item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlItemBodySideInfo">
+            <summary>
+            The DdlItemBodySide item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlItemBodySite">
+            <summary>
+            The DdlItemBodySite item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlItemBodySiteInfo">
+            <summary>
+            The DdlItemBodySite item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlItemCategory">
+            <summary>
+            The DdlItemCategory item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlItemCategoryInfo">
+            <summary>
+            The DdlItemCategory item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlItemGroup">
+            <summary>
+            The DdlItemGroup item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlItemGroupInfo">
+            <summary>
+            The DdlItemGroup item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlItemStatus">
+            <summary>
+            The DdlItemStatus item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlItemStatusInfo">
+            <summary>
+            The DdlItemStatus item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlPreferredSupplier">
+            <summary>
+            The DdlPreferredSupplier item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.DdlPreferredSupplierInfo">
+            <summary>
+            The DdlPreferredSupplier item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.SeUnitPrice">
+            <summary>
+            The SeUnitPrice item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.SeUnitPriceInfo">
+            <summary>
+            The SeUnitPrice item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.TextBoxMaskBox">
+            <summary>
+            The TextBoxMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.TextBoxMaskBoxInfo">
+            <summary>
+            The TextBoxMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.TextMaskBox2">
+            <summary>
+            The TextMaskBox2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.TextMaskBox2Info">
+            <summary>
+            The TextMaskBox2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.TextMaskBox1">
+            <summary>
+            The TextMaskBox1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.TextMaskBox1Info">
+            <summary>
+            The TextMaskBox1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.ItemCategory">
+            <summary>
+            The ItemCategory item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.ItemCategoryInfo">
+            <summary>
+            The ItemCategory item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.EClassCode">
+            <summary>
+            The EClassCode item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.EClassCodeInfo">
+            <summary>
+            The EClassCode item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.TsPassthrough">
+            <summary>
+            The TsPassthrough item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.TsPassthroughInfo">
+            <summary>
+            The TsPassthrough item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.LayoutControl1">
+            <summary>
+            The LayoutControl1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.LayoutControl1Info">
+            <summary>
+            The LayoutControl1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.TxtDescription">
+            <summary>
+            The TxtDescription item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.WpItemFolder.TxtDescriptionInfo">
+            <summary>
+            The TxtDescription item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder">
+            <summary>
+            The UcStep3LocationProfileFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new UcStep3LocationProfile  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.GcLocationProfiles">
+            <summary>
+            The GcLocationProfiles item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.GcLocationProfilesInfo">
+            <summary>
+            The GcLocationProfiles item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.LocationCodeRow2">
+            <summary>
+            The LocationCodeRow2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.LocationCodeRow2Info">
+            <summary>
+            The LocationCodeRow2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.LocationCodeRow3">
+            <summary>
+            The LocationCodeRow3 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.LocationCodeRow3Info">
+            <summary>
+            The LocationCodeRow3 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.LocationCodeRow5">
+            <summary>
+            The LocationCodeRow5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.LocationCodeRow5Info">
+            <summary>
+            The LocationCodeRow5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.UnitOfMeasureRow5">
+            <summary>
+            The UnitOfMeasureRow5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.UnitOfMeasureRow5Info">
+            <summary>
+            The UnitOfMeasureRow5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.ReorderLevelRow7">
+            <summary>
+            The ReorderLevelRow7 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.ReorderLevelRow7Info">
+            <summary>
+            The ReorderLevelRow7 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.EmergencyLevelRow8">
+            <summary>
+            The EmergencyLevelRow8 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.EmergencyLevelRow8Info">
+            <summary>
+            The EmergencyLevelRow8 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.LocationCodeRow4">
+            <summary>
+            The LocationCodeRow4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.LocationCodeRow4Info">
+            <summary>
+            The LocationCodeRow4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.ReorderQuantityRow2">
+            <summary>
+            The ReorderQuantityRow2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.ReorderQuantityRow2Info">
+            <summary>
+            The ReorderQuantityRow2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.ReorderQuantityRow3">
+            <summary>
+            The ReorderQuantityRow3 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.ReorderQuantityRow3Info">
+            <summary>
+            The ReorderQuantityRow3 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.SearchLookUpEdit">
+            <summary>
+            The SearchLookUpEdit item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.SearchLookUpEditInfo">
+            <summary>
+            The SearchLookUpEdit item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.KanbanRow7">
+            <summary>
+            The KanbanRow7 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.KanbanRow7Info">
+            <summary>
+            The KanbanRow7 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.ReorderQuantityRow0">
+            <summary>
+            The ReorderQuantityRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.ReorderQuantityRow0Info">
+            <summary>
+            The ReorderQuantityRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.ButtonEdit">
+            <summary>
+            The ButtonEdit item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.ButtonEditInfo">
+            <summary>
+            The ButtonEdit item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.LocationTypeRow5">
+            <summary>
+            The LocationTypeRow5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.LocationTypeRow5Info">
+            <summary>
+            The LocationTypeRow5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.SelectionRow2">
+            <summary>
+            The SelectionRow2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.SelectionRow2Info">
+            <summary>
+            The SelectionRow2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.SelectionRow21">
+            <summary>
+            The SelectionRow21 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.UcStep3LocationProfileFolder.SelectionRow21Info">
+            <summary>
+            The SelectionRow21 item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder.Text4101">
+            <summary>
+            The Text4101 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder.Text4101Info">
+            <summary>
+            The Text4101 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder.Start">
+            <summary>
+            The Start item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder.StartInfo">
+            <summary>
+            The Start item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder.Button">
+            <summary>
+            The Button item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder.ButtonInfo">
+            <summary>
+            The Button item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder.TrayInputIndicatorEnglishUnitedK">
+            <summary>
+            The TrayInputIndicatorEnglishUnitedK item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder.TrayInputIndicatorEnglishUnitedKInfo">
+            <summary>
+            The TrayInputIndicatorEnglishUnitedK item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.ExplorerAppFolder.RunningApplications">
+            <summary>
+            The RunningApplications folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder">
+            <summary>
+            The RunningApplicationsFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RunningApplications  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.GenesisAutomation">
+            <summary>
+            The GenesisAutomation item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.GenesisAutomationInfo">
+            <summary>
+            The GenesisAutomation item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.GenesisAutomation1RunningWindow">
+            <summary>
+            The GenesisAutomation1RunningWindow item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.GenesisAutomation1RunningWindowInfo">
+            <summary>
+            The GenesisAutomation1RunningWindow item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.GenesisAutomation2RunningWindows">
+            <summary>
+            The GenesisAutomation2RunningWindows item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.GenesisAutomation2RunningWindowsInfo">
+            <summary>
+            The GenesisAutomation2RunningWindows item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.GenesisAutomation1RunningWindow1">
+            <summary>
+            The GenesisAutomation1RunningWindow1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.GenesisAutomation1RunningWindow1Info">
+            <summary>
+            The GenesisAutomation1RunningWindow1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.RanorexStudio1RunningWindow">
+            <summary>
+            The RanorexStudio1RunningWindow item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.RunningApplicationsFolder.RanorexStudio1RunningWindowInfo">
+            <summary>
+            The RanorexStudio1RunningWindow item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder">
+            <summary>
+            The TheTestSuiteStructureRanorexStudiAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TheTestSuiteStructureRanorexStudi  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.AddingTestSuiteItemsUsingDragdrop">
+            <summary>
+            The AddingTestSuiteItemsUsingDragdrop item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.AddingTestSuiteItemsUsingDragdropInfo">
+            <summary>
+            The AddingTestSuiteItemsUsingDragdrop item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.JumpListForGenesisAutomationAppFolder">
+            <summary>
+            The JumpListForGenesisAutomationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.JumpListForGenesisAutomationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new JumpListForGenesisAutomation  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.JumpListForGenesisAutomationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.JumpListForGenesisAutomationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.JumpListForGenesisAutomationAppFolder.DisplayNameTextBlock">
+            <summary>
+            The DisplayNameTextBlock item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.JumpListForGenesisAutomationAppFolder.DisplayNameTextBlockInfo">
+            <summary>
+            The DisplayNameTextBlock item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.CortanaAppFolder">
+            <summary>
+            The CortanaAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.CortanaAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Cortana  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.CortanaAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.CortanaAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.CortanaAppFolder.GenesisAutomation">
+            <summary>
+            The GenesisAutomation item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.CortanaAppFolder.GenesisAutomationInfo">
+            <summary>
+            The GenesisAutomation item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.CortanaAppFolder.RunAs">
+            <summary>
+            The RunAs item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.CortanaAppFolder.RunAsInfo">
+            <summary>
+            The RunAs item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.NewTabAppFolder">
+            <summary>
+            The NewTabAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.NewTabAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewTab  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.NewTabAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.NewTabAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.BlankAppFolder">
+            <summary>
+            The BlankAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.BlankAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Blank  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.BlankAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.BlankAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizardAppFolder">
+            <summary>
+            The FrmCreateItemWizardAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizardAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmCreateItemWizard  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizardAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizardAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizardAppFolder.ButtonNext">
+            <summary>
+            The ButtonNext item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizardAppFolder.ButtonNextInfo">
+            <summary>
+            The ButtonNext item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizardAppFolder.BtnNext">
+            <summary>
+            The BtnNext item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizardAppFolder.BtnNextInfo">
+            <summary>
+            The BtnNext item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizardAppFolder.ButtonCreate">
+            <summary>
+            The ButtonCreate item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizardAppFolder.ButtonCreateInfo">
+            <summary>
+            The ButtonCreate item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizardAppFolder.BtnFinish">
+            <summary>
+            The BtnFinish item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizardAppFolder.BtnFinishInfo">
+            <summary>
+            The BtnFinish item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.Explorer1AppFolder">
+            <summary>
+            The Explorer1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.Explorer1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer1  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.Explorer1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.Explorer1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.Explorer1AppFolder.List1">
+            <summary>
+            The List1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.Explorer1AppFolder.List1Info">
+            <summary>
+            The List1 item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizard1AppFolder">
+            <summary>
+            The FrmCreateItemWizard1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizard1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmCreateItemWizard1  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizard1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizard1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizard1AppFolder.WizardButton">
+            <summary>
+            The WizardButton item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmCreateItemWizard1AppFolder.WizardButtonInfo">
+            <summary>
+            The WizardButton item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceipt">
+             <summary>
+            The GoodsReceipt recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceipt.repo">
+            <summary>
+            Holds an instance of the Genesis_Provider_Legacy_Desktop_RanorexTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceipt.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceipt.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceipt.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceipt.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceipt.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceipt.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceiptTeardown">
+             <summary>
+            The GoodsReceiptTeardown recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceiptTeardown.repo">
+            <summary>
+            Holds an instance of the Genesis_Provider_Legacy_Desktop_RanorexTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceiptTeardown.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceiptTeardown.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceiptTeardown.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceiptTeardown.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceiptTeardown.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.GoodsReceiptTeardown.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Provider.Legacy.Desktop.RanorexTests.Login.repo">
+            <summary>
+            Holds an instance of the Genesis_Provider_Legacy_Desktop_RanorexTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Create_ReleasePO">
+             <summary>
+            The Create_ReleasePO recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Provider.Legacy.Desktop.RanorexTests.Create_ReleasePO.repo">
+            <summary>
+            Holds an instance of the Genesis_Provider_Legacy_Desktop_RanorexTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Create_ReleasePO.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Create_ReleasePO.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Create_ReleasePO.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Create_ReleasePO.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Create_ReleasePO.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Create_ReleasePO.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.ReleaseRequisition">
+             <summary>
+            The ReleaseRequisition recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Provider.Legacy.Desktop.RanorexTests.ReleaseRequisition.repo">
+            <summary>
+            Holds an instance of the Genesis_Provider_Legacy_Desktop_RanorexTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.ReleaseRequisition.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.ReleaseRequisition.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.ReleaseRequisition.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Provider.Legacy.Desktop.RanorexTests.ReleaseRequisition.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.ReleaseRequisition.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.ReleaseRequisition.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Genesis.Provider.Legacy.Desktop.RanorexTests.Setup">
+             <summary>
+            The Setup recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Provider.Legacy.Desktop.RanorexTests.Setup.repo">
+            <summary>
+            Holds an instance of the Genesis_Provider_Legacy_Desktop_RanorexTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Setup.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Setup.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Setup.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Provider.Legacy.Desktop.RanorexTests.Setup.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Setup.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Provider.Legacy.Desktop.RanorexTests.Setup.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

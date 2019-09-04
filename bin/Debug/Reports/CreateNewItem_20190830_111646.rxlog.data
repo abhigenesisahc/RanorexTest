@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="52.8s"
+		durationms="52804"
+		type="root"
+		rid="ce5f287d65b8770"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="AbhishekKumar"
+		rxversion="9.1.1.0"
+		host="DESKTOP-FSTSIKQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="7200x1350"
+		timestamp="30/08/2019 11:16:50"
+		timestampiso="2019-08-30T10:16:50"
+		endtime="30/08/2019 11:17:43"
+		timeoutfactor="1"
+		module="CreateNewItem">
+		<detail>
+			CreateNewItem
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.277"
+			timeRelativeToTestModuleStartTime="00:12.277"
+			timeWallClock="11:17:03"
+			time="00:12.277"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NewVariable
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.319"
+			timeRelativeToTestModuleStartTime="00:12.319"
+			timeWallClock="11:17:03"
+			time="00:12.319"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PurchaseOrder.UcStep3LocationProfile.ReorderQuantityRow2' at 29;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/?/?/container[@controlname='wpLocationProfile']/?/?/container[@controlname='ucStep3LocationProfile']/?/?/element[@controlname='gcLocationProfiles']/table[@accessiblerole='Table']/?/?/row[@accessiblename='Row 3']/cell[@accessiblename='Reorder Quantity row 2']"
+				itempath="?/?/element[@controlname='gcLocationProfiles']/table[@accessiblerole='Table']/?/?/row[@accessiblename='Row 3']/cell[@accessiblename='Reorder Quantity row 2']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.PurchaseOrder.UcStep3LocationProfile.ReorderQuantityRow2"
+				id="d82491b27ab842d0a2066dc7225d2f8b"
+				timeout="90000"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="95"
+				itemindex="42"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.392"
+			timeRelativeToTestModuleStartTime="00:19.392"
+			timeWallClock="11:17:10"
+			time="00:19.392"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 10976)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="42">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.286"
+			timeRelativeToTestModuleStartTime="00:21.286"
+			timeWallClock="11:17:12"
+			time="00:21.286"
+			level="Warn"
+			category="CEF">
+			<message>
+				UI elements in your CEF AUT can&#8217;t be identified because the remote debugging port isn&#8217;t enabled in your AUT or can&#8217;t be found. Make sure you&#8217;ve enabled it and set it to 8081.<br/>Process: 'slack' (pid 18268)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/testing-cef-applications/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="cef-chrome-debug-protocol-NotFound"
+				showInProgressDialog="False"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="42">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.808"
+			timeRelativeToTestModuleStartTime="00:52.808"
+			timeWallClock="11:17:43"
+			time="00:52.808"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

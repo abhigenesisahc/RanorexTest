@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1m"
+		durationms="60542"
+		type="root"
+		rid="be355b4645b19fa"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="AbhishekKumar"
+		rxversion="9.1.1.0"
+		host="DESKTOP-FSTSIKQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="7200x1350"
+		timestamp="29/08/2019 16:18:31"
+		timestampiso="2019-08-29T15:18:31"
+		endtime="29/08/2019 16:19:32"
+		timeoutfactor="1"
+		module="CreateNewItem">
+		<detail>
+			CreateNewItem
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.324"
+			timeRelativeToTestModuleStartTime="00:04.324"
+			timeWallClock="16:18:36"
+			time="00:04.324"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmMain.TransactionData' at 109;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmMain']/element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Transaction Data']"
+				itempath="element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Transaction Data']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.FrmMain.TransactionData"
+				id="a7866daac3154543ae9b769b1432a9a5"
+				timeout="60000"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.166"
+			timeRelativeToTestModuleStartTime="00:06.166"
+			timeWallClock="16:18:38"
+			time="00:06.166"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 10976)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.540"
+			timeRelativeToTestModuleStartTime="00:06.540"
+			timeWallClock="16:18:38"
+			time="00:06.540"
+			level="Warn"
+			category="Click"
+			errimg="images_CreateNe_4caa80b1\CreateNe_68e4dcc6_rxlog.jpg"
+			errthumb="images_CreateNe_4caa80b1\CreateNe_68e4dcc6_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.250"
+			timeRelativeToTestModuleStartTime="00:07.250"
+			timeWallClock="16:18:39"
+			time="00:07.250"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.NewItemWizard' at 44;39.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='New Item Wizard']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='New Item Wizard']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.GenesisAutomation1.NewItemWizard"
+				id="8c0300113d6f4a28953479553df44c47"
+				timeout="60000"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.201"
+			timeRelativeToTestModuleStartTime="00:08.201"
+			timeWallClock="16:18:40"
+			time="00:08.201"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PurchaseOrder.BtnNext' at 58;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/?/?/element[@controlname='btnNext']"
+				itempath="?/?/element[@controlname='btnNext']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.PurchaseOrder.BtnNext"
+				id="d773c43e0a8e4eed9b127957dad2e99f"
+				timeout="60000"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.336"
+			timeRelativeToTestModuleStartTime="00:10.336"
+			timeWallClock="16:18:42"
+			time="00:10.336"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PurchaseOrder.WpItem.DdlPreferredSupplier' at 311;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/?/?/container[@controlname='wpItem']/?/?/container[@controlname='ucStep1Item']/?/?/element[@controlname='ddlPreferredSupplier']"
+				itempath="?/?/container[@controlname='ucStep1Item']/?/?/element[@controlname='ddlPreferredSupplier']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.PurchaseOrder.WpItem.DdlPreferredSupplier"
+				id="d35ae6f98b3b4a5a879283ac1afbfb11"
+				timeout="90000"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.853"
+			timeRelativeToTestModuleStartTime="00:11.853"
+			timeWallClock="16:18:43"
+			time="00:11.853"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation.SearchEditLookUpPopup.PreferredSupplierRow10' at 273;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']/container[@controlname='SearchEditLookUpPopup']/container[@controlname='lc']//row[@accessiblename='Row 11']/cell[@accessiblename='Preferred Supplier row 10']"
+				itempath="container[@controlname='lc']//row[@accessiblename='Row 11']/cell[@accessiblename='Preferred Supplier row 10']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.GenesisAutomation.SearchEditLookUpPopup.PreferredSupplierRow10"
+				id="ae703f00401e49d19b84c1b5aeec3358"
+				timeout="90000"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.544"
+			timeRelativeToTestModuleStartTime="01:00.544"
+			timeWallClock="16:19:32"
+			time="01:00.544"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

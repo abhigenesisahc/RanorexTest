@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="304d4099-ea00-46c2-ba5f-35ef11f6b4ee"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GoodsReceiptTeardown"
+	namespace="Genesis.Provider.Legacy.Desktop.RanorexTests">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="5000ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="789aea86-93ac-4db3-bcd8-dca9b13222eb">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cfcd86cd-7df9-42de-93f8-236376121663"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@controlname='FrmMain']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="ab3deee2-1ef7-4662-a7f6-05e9cad6d967"
+	name="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository"
+	relativepath="Genesis.Provider.Legacy.Desktop.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository"
+		namespace="Genesis.Provider.Legacy.Desktop.RanorexTests">
+		</codegen>
+		<rootfolder
+		id="b589f26a-272d-4afa-92e6-d44d7c9209ae"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GoodsReceiptTeardown.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

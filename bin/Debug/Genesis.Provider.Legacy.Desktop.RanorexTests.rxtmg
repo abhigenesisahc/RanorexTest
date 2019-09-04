@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Genesis.Provider.Legacy.Desktop.RanorexTests"
+      id="59a5e7b0-a753-435b-8f33-76a75afe95dc"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Genesis.Provider.Legacy.Desktop.RanorexTests"
+      id="59a5e7b0-a753-435b-8f33-76a75afe95dc"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,7 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Genesis.Provider.Legacy.Desktop.RanorexTests",
+    "RunConfig": "TestRun"
+  }
+]

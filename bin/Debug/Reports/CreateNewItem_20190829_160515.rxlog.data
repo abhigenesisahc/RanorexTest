@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b0354a6ab662ebc"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="AbhishekKumar"
+		rxversion="9.1.1.0"
+		host="DESKTOP-FSTSIKQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="7200x1350"
+		timestamp="29/08/2019 16:05:17"
+		timestampiso="2019-08-29T15:05:17"
+		endtime="29/08/2019 16:05:33"
+		timeoutfactor="1"
+		module="CreateNewItem">
+		<detail>
+			CreateNewItem
+		</detail>
+		<errormessage>
+			Failed to move to location '305;15' within element '{Unknown:ddlPreferredSupplier}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.039"
+			timeRelativeToTestModuleStartTime="00:05.039"
+			timeWallClock="16:05:22"
+			time="00:05.039"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.Stock' at 287;-9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controlname='ribbon']//toolbar[@accessiblename='Stock']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Stock']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.GenesisAutomation1.Stock"
+				id="e1bb31714ed4480ea6fe38817fa8019d"
+				timeout="60000"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.163"
+			timeRelativeToTestModuleStartTime="00:09.163"
+			timeWallClock="16:05:26"
+			time="00:09.163"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 10976)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.829"
+			timeRelativeToTestModuleStartTime="00:09.829"
+			timeWallClock="16:05:27"
+			time="00:09.829"
+			level="Warn"
+			category="Click"
+			errimg="images_CreateNe_6346c7b5\CreateNe_a48addea_rxlog.jpg"
+			errthumb="images_CreateNe_6346c7b5\CreateNe_a48addea_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.570"
+			timeRelativeToTestModuleStartTime="00:10.570"
+			timeWallClock="16:05:27"
+			time="00:10.570"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmMain.Tasks' at 44;46.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmMain']/element[@controlname='ribbon']//toolbar[@accessiblename='Notifications']/button[@accessiblename='Tasks']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Notifications']/button[@accessiblename='Tasks']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.FrmMain.Tasks"
+				id="f1c91e144ddc496594907800a9363c3d"
+				timeout="60000"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.501"
+			timeRelativeToTestModuleStartTime="00:11.501"
+			timeWallClock="16:05:28"
+			time="00:11.501"
+			level="Info"
+			category="Mouse"
+			errimg="images_CreateNe_6346c7b5\CreateNe_6346c7b5_b30ecd91_trace.jpg"
+			errthumb="images_CreateNe_6346c7b5\CreateNe_6346c7b5_b30ecd91_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'PurchaseOrder.WpItem.DdlPreferredSupplier' at 305;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/?/?/container[@controlname='wpItem']/?/?/container[@controlname='ucStep1Item']/?/?/element[@controlname='ddlPreferredSupplier']"
+				itempath="?/?/container[@controlname='ucStep1Item']/?/?/element[@controlname='ddlPreferredSupplier']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.PurchaseOrder.WpItem.DdlPreferredSupplier"
+				id="d35ae6f98b3b4a5a879283ac1afbfb11"
+				timeout="90000"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.066"
+			timeRelativeToTestModuleStartTime="00:14.066"
+			timeWallClock="16:05:31"
+			time="00:14.066"
+			level="Warn"
+			category="CEF"
+			errimg="images_CreateNe_6346c7b5\CreateNe_6346c7b5_719430d0_trace.jpg"
+			errthumb="images_CreateNe_6346c7b5\CreateNe_6346c7b5_719430d0_trace_thumb.jpg">
+			<message>
+				UI elements in your CEF AUT can&#8217;t be identified because the remote debugging port isn&#8217;t enabled in your AUT or can&#8217;t be found. Make sure you&#8217;ve enabled it and set it to 8081.<br/>Process: 'slack' (pid 18268)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/testing-cef-applications/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="cef-chrome-debug-protocol-NotFound"
+				showInProgressDialog="False"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="91"
+				loglvl="Warn"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.746"
+			timeRelativeToTestModuleStartTime="00:15.746"
+			timeWallClock="16:05:33"
+			time="00:15.746"
+			level="Error"
+			category="Module"
+			errimg="images_CreateNe_6346c7b5\CreateNe_6346c7b5_f6e4eb86_trace.jpg"
+			errthumb="images_CreateNe_6346c7b5\CreateNe_6346c7b5_f6e4eb86_trace_thumb.jpg">
+			<message>
+				Failed to move to location '305;15' within element '{Unknown:ddlPreferredSupplier}'.<br/>The pointer cannot be moved to point '{X=-11620,Y=-12293}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Mouse.Click(Element element, MouseButtons buttons, Location location, Int32 times, Duration moveTime)
+   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at Genesis.Provider.Legacy.Desktop.RanorexTests.CreateNewItem.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs:line 91
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="91"
+				type="repoitem"
+				path="/form/?/?/container[@controlname='wpItem']/?/?/container[@controlname='ucStep1Item']/?/?/element[@controlname='ddlPreferredSupplier']"
+				itempath="?/?/container[@controlname='ucStep1Item']/?/?/element[@controlname='ddlPreferredSupplier']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.PurchaseOrder.WpItem.DdlPreferredSupplier"
+				id="d35ae6f98b3b4a5a879283ac1afbfb11"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

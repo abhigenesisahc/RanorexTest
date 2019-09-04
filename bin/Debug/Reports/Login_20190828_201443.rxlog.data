@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="81aeb44503a2d5f"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="AbhishekKumar"
+		rxversion="9.1.1.0"
+		host="DESKTOP-FSTSIKQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="1920x1080"
+		timestamp="28/08/2019 20:14:49"
+		timestampiso="2019-08-28T19:14:49"
+		endtime="28/08/2019 20:16:01"
+		timeoutfactor="1"
+		module="Login">
+		<detail>
+			Login
+		</detail>
+		<errormessage>
+			Failed to find item 'Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.FrmLogin.TextMaskBox'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.064"
+			timeRelativeToTestModuleStartTime="00:10.064"
+			timeWallClock="20:15:00"
+			time="00:10.064"
+			level="Info"
+			category="Application"
+			errimg="images_Login_20_8166078f\Login_20_8166078f_49ba82ad_trace.jpg"
+			errthumb="images_Login_20_8166078f\Login_20_8166078f_49ba82ad_trace_thumb.jpg">
+			<message>
+				Run application 'C:\Program Files (x86)\Genesis Automation Ltd\Genesis Automation\GenesisAutomation.exe' in normal mode. Return value bound to $.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Login.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.229"
+			timeRelativeToTestModuleStartTime="00:10.229"
+			timeWallClock="20:15:00"
+			time="00:10.229"
+			level="Info"
+			category="Mouse"
+			errimg="images_Login_20_8166078f\Login_20_8166078f_49ba82ad_trace.jpg"
+			errthumb="images_Login_20_8166078f\Login_20_8166078f_49ba82ad_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'FrmLogin.TextMaskBox' at 142;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmLogin']/?/?/element[@controlname='txtUsername']/text[@controlname='_maskBox']"
+				itempath="?/?/element[@controlname='txtUsername']/text[@controlname='_maskBox']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.FrmLogin.TextMaskBox"
+				id="b0eef035506c49298e915d5b38925d10"
+				timeout="60000"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Login.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.606"
+			timeRelativeToTestModuleStartTime="00:21.606"
+			timeWallClock="20:15:11"
+			time="00:21.606"
+			level="Warn"
+			category="WinForms"
+			errimg="images_Login_20_8166078f\Login_20_8166078f_6e279d1b_trace.jpg"
+			errthumb="images_Login_20_8166078f\Login_20_8166078f_6e279d1b_trace_thumb.jpg">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 18600)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:11.664"
+			timeRelativeToTestModuleStartTime="01:11.664"
+			timeWallClock="20:16:01"
+			time="01:11.664"
+			level="Error"
+			category="Module"
+			errimg="images_Login_20_8166078f\Login_20_8166078f_8f6316e3_trace.jpg"
+			errthumb="images_Login_20_8166078f\Login_20_8166078f_8f6316e3_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.FrmLogin.TextMaskBox'.<br/>No element found for path '/form[@controlname='FrmLogin']/?/?/element[@controlname='txtUsername']/text[@controlname='_maskBox']' at step 'form[@controlname='FrmLogin']' after 36 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.FrmLoginAppFolder.get_TextMaskBox() in C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Genesis.Provider.Legacy.Desktop.RanorexTestsRepository.cs:line 282&#13;&#10;   at Genesis.Provider.Legacy.Desktop.RanorexTests.Login.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Login.cs:line 87&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Login.cs"
+				codeline="87"
+				type="repoitem"
+				path="/form[@controlname='FrmLogin']/?/?/element[@controlname='txtUsername']/text[@controlname='_maskBox']"
+				itempath="?/?/element[@controlname='txtUsername']/text[@controlname='_maskBox']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.FrmLogin.TextMaskBox"
+				id="b0eef035506c49298e915d5b38925d10"
+				timeout="60000"
+				failedStep="form[@controlname='FrmLogin']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

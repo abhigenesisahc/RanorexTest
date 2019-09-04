@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="16dca245931c192a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="AbhishekKumar"
+		rxversion="9.1.1.0"
+		host="DESKTOP-FSTSIKQ"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="7200x1350"
+		timestamp="29/08/2019 14:56:12"
+		timestampiso="2019-08-29T13:56:12"
+		endtime="29/08/2019 14:57:48"
+		timeoutfactor="1"
+		module="CreateNewItem">
+		<detail>
+			CreateNewItem
+		</detail>
+		<errormessage>
+			Failed to find item 'Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.GenesisAutomation.SearchEditLookUpPopup.PreferredSupplierRow3'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.788"
+			timeRelativeToTestModuleStartTime="00:05.788"
+			timeWallClock="14:56:18"
+			time="00:05.788"
+			level="Info"
+			category="Keyboard"
+			errimg="images_CreateNe_7bb36a29\CreateNe_7bb36a29_de740449_trace.jpg"
+			errthumb="images_CreateNe_7bb36a29\CreateNe_7bb36a29_de740449_trace_thumb.jpg">
+			<message>
+				Key sequence 'test{Down}{Down}{Return}' with focus on 'GenesisAutomation.SearchEditLookUpPopup.PreferredSupplierRow3'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']/container[@controlname='SearchEditLookUpPopup']/container[@controlname='lc']//row[@accessiblename='Row 4']/cell[@accessiblename='Preferred Supplier row 3']"
+				itempath="container[@controlname='lc']//row[@accessiblename='Row 4']/cell[@accessiblename='Preferred Supplier row 3']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.GenesisAutomation.SearchEditLookUpPopup.PreferredSupplierRow3"
+				id="97f732d0ee4f4efea6d3b8f150dab964"
+				timeout="90000"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.993"
+			timeRelativeToTestModuleStartTime="00:08.993"
+			timeWallClock="14:56:21"
+			time="00:08.993"
+			level="Warn"
+			category="WinForms"
+			errimg="images_CreateNe_7bb36a29\CreateNe_7bb36a29_a13b070c_trace.jpg"
+			errthumb="images_CreateNe_7bb36a29\CreateNe_7bb36a29_a13b070c_trace_thumb.jpg">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 10976)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:36.275"
+			timeRelativeToTestModuleStartTime="01:36.275"
+			timeWallClock="14:57:48"
+			time="01:36.275"
+			level="Error"
+			category="Module"
+			errimg="images_CreateNe_7bb36a29\CreateNe_7bb36a29_6a02772e_trace.jpg"
+			errthumb="images_CreateNe_7bb36a29\CreateNe_7bb36a29_6a02772e_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.GenesisAutomation.SearchEditLookUpPopup.PreferredSupplierRow3'.<br/>No element found for path '/form[@title='']/container[@controlname='SearchEditLookUpPopup']/container[@controlname='lc']//row[@accessiblename='Row 4']/cell[@accessiblename='Preferred Supplier row 3']' at step 'container[@controlname='SearchEditLookUpPopup']' after 408 attempts within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at Genesis.Provider.Legacy.Desktop.RanorexTests.Genesis_Provider_Legacy_Desktop_RanorexTestsRepositoryFolders.SearchEditLookUpPopupFolder.get_PreferredSupplierRow3() in C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Genesis.Provider.Legacy.Desktop.RanorexTestsRepository.cs:line 1308&#13;&#10;   at Genesis.Provider.Legacy.Desktop.RanorexTests.CreateNewItem.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\AbhishekKumar\Documents\GitHub\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\CreateNewItem.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@title='']/container[@controlname='SearchEditLookUpPopup']/container[@controlname='lc']//row[@accessiblename='Row 4']/cell[@accessiblename='Preferred Supplier row 3']"
+				itempath="container[@controlname='lc']//row[@accessiblename='Row 4']/cell[@accessiblename='Preferred Supplier row 3']"
+				fullname="Genesis_Provider_Legacy_Desktop_RanorexTestsRepository.GenesisAutomation.SearchEditLookUpPopup.PreferredSupplierRow3"
+				id="97f732d0ee4f4efea6d3b8f150dab964"
+				timeout="90000"
+				failedStep="container[@controlname='SearchEditLookUpPopup']"
+				bestPathPrefix="/form[@title='']"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>
