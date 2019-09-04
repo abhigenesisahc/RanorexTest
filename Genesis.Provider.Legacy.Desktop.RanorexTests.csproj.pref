@@ -1,0 +1,13 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Create_ReleasePO.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Create_ReleasePO.rxrec" />
+    <Element value="Genesis.Provider.Legacy.Desktop.RanorexTests.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>
