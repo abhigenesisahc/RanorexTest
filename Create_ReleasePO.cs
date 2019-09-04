@@ -74,7 +74,7 @@ namespace Genesis.Provider.Legacy.Desktop.RanorexTests
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
-            Keyboard.DefaultKeyPressTime = 20;
+            Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.00;
 
             Init();
@@ -88,7 +88,7 @@ namespace Genesis.Provider.Legacy.Desktop.RanorexTests
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'password1' with focus on 'FrmLogin.NoCapsMsgTextBoxMaskBox'.", repo.FrmLogin.NoCapsMsgTextBoxMaskBoxInfo, new RecordItemIndex(2));
-            repo.FrmLogin.NoCapsMsgTextBoxMaskBox.PressKeys("password1");
+            repo.FrmLogin.NoCapsMsgTextBoxMaskBox.PressKeys("password1", 20);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmLogin.SignIn' at 83;12.", repo.FrmLogin.SignInInfo, new RecordItemIndex(3));

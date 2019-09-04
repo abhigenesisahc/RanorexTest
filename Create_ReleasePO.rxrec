@@ -5802,21 +5802,9 @@ H2V/7sf5/wD1quUUAU/sr/3Y/wA//rUfZX/ux/n/APWq5RQBWigdZFY7AFPY+30qzRRQB//Z
 					</dynamicattribute>
 					<dynamicattribute
 					description="No description available."
-					name="DrawGroupCaptions"
-					readonly="False"
-					type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
 					name="DrawGroupsBorder"
 					readonly="False"
 					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="DrawGroupsBorderMode"
-					readonly="False"
-					type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
 					</dynamicattribute>
 					<dynamicattribute
 					description="No description available."
@@ -6096,33 +6084,9 @@ H2V/7sf5/wD1quUUAU/sr/3Y/wA//rUfZX/ux/n/APWq5RQBWigdZFY7AFPY+30qzRRQB//Z
 					</dynamicattribute>
 					<dynamicattribute
 					description="No description available."
-					name="ShowApplicationButton"
-					readonly="False"
-					type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
 					name="ShowCategoryInCaption"
 					readonly="False"
 					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ShowDisplayOptionsMenuButton"
-					readonly="False"
-					type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ShowExpandCollapseButton"
-					readonly="False"
-					type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ShowFullScreenButton"
-					readonly="False"
-					type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
 					</dynamicattribute>
 					<dynamicattribute
 					description="No description available."
@@ -6141,12 +6105,6 @@ H2V/7sf5/wD1quUUAU/sr/3Y/wA//rUfZX/ux/n/APWq5RQBWigdZFY7AFPY+30qzRRQB//Z
 					name="ShowPageHeaders"
 					readonly="False"
 					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="ShowPageHeadersInFormCaption"
-					readonly="False"
-					type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
 					</dynamicattribute>
 					<dynamicattribute
 					description="No description available."
@@ -6213,12 +6171,6 @@ H2V/7sf5/wD1quUUAU/sr/3Y/wA//rUfZX/ux/n/APWq5RQBWigdZFY7AFPY+30qzRRQB//Z
 					name="TransparentEditors"
 					readonly="False"
 					type="System.Boolean">
-					</dynamicattribute>
-					<dynamicattribute
-					description="No description available."
-					name="TransparentEditorsMode"
-					readonly="False"
-					type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
 					</dynamicattribute>
 					<dynamicattribute
 					description="No description available."

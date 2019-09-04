@@ -3,9 +3,33 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
-			id="47f155b7-4c9c-4f2c-8535-3e56a8bdcb4f"
-			name="Create_ReleasePO"
-			ref="c2e15e46-7564-46df-8a4d-481f1405568c"
+			id="035214fa-dfc4-40a6-9b86-4ebbf230835f"
+			name="GoodsReceiptTeardown"
+			ref="304d4099-ea00-46c2-ba5f-35ef11f6b4ee"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="256b8e82-5af5-47bc-bddf-bbc1a184358d"
+			name="ReleaseRequisition"
+			ref="654db7d1-ec35-4e54-97ab-755ba2ea2f1c"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="308db052-874a-45cb-ad1f-6a4fcef61305"
+			name="Login"
+			ref="d69f0630-96ff-4243-9032-f564b7ded20b"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="3416f848-b24c-4edb-93fb-71eaba221a39"
+			name="Login"
+			ref="d69f0630-96ff-4243-9032-f564b7ded20b"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="39323256-9be3-4e55-83aa-ba6668b5b2bc"
+			name="CreateRequisition"
+			ref="2247c667-5433-4d24-a630-8c681679b07a"
 			type="Recording">
 			</testmodule>
 			<testsuite
@@ -27,14 +51,48 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<teardown
+			id="648188b5-61f1-4159-814f-0818f7f66d85"
+			name="teardown1">
+			</teardown>
+			<testmodule
+			id="7bdd34bd-15e9-4ba7-8007-4774d357e4ea"
+			name="Login"
+			ref="d69f0630-96ff-4243-9032-f564b7ded20b"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="7dee0c1f-6896-47be-905c-4a086af37a13"
+			name="teardown">
+			</teardown>
 			<testcase
 			id="8642e7a1-4394-4ec1-96e7-613cfc8f2cce"
 			name="Genesis.Provider.Legacy.Desktop.RanorexTests"
 			reportlevel="Info;20">
 			</testcase>
+			<testmodule
+			id="9314dc57-3928-49d4-a1c0-a1fdf3517654"
+			name="CreateNewItem"
+			ref="14860930-f1a5-4fc1-be5b-fa450d922585"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="b6091c7e-9d70-408d-8890-d67828659cf2"
+			name="CreateReleasePOTeardown"
+			ref="98e8dbfe-7168-4de7-bb00-c127928fb086"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="b7566ef0-5338-4d55-a1a5-4998c9133c96"
-			name="Create/ReleasePO">
+			name="Create/ReleasePO(StockReq)">
+			</testcase>
+			<testcase
+			id="b800f2cf-788c-4d9b-a461-6ced74201f49"
+			name="GoodsReceipt">
+			</testcase>
+			<testcase
+			id="d7498a6a-fa23-46f9-a0fb-ab7f6568ea39"
+			name="CreateNewItemWizard">
 			</testcase>
 		</flatlistofchildren>
 		<childhierarchy>
@@ -46,10 +104,54 @@
 				name="Genesis.Provider.Legacy.Desktop.RanorexTests">
 					<testcase
 					id="b7566ef0-5338-4d55-a1a5-4998c9133c96"
-					name="Create/ReleasePO">
+					name="Create/ReleasePO(StockReq)">
 						<testmodule
-						id="47f155b7-4c9c-4f2c-8535-3e56a8bdcb4f"
-						name="Create_ReleasePO">
+						id="7bdd34bd-15e9-4ba7-8007-4774d357e4ea"
+						name="Login">
+						</testmodule>
+						<testmodule
+						id="39323256-9be3-4e55-83aa-ba6668b5b2bc"
+						name="CreateRequisition">
+						</testmodule>
+						<testmodule
+						id="256b8e82-5af5-47bc-bddf-bbc1a184358d"
+						name="ReleaseRequisition">
+						</testmodule>
+						<teardown
+						id="7dee0c1f-6896-47be-905c-4a086af37a13"
+						name="teardown">
+							<testmodule
+							id="b6091c7e-9d70-408d-8890-d67828659cf2"
+							name="CreateReleasePOTeardown">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="b800f2cf-788c-4d9b-a461-6ced74201f49"
+					name="GoodsReceipt">
+						<testmodule
+						id="308db052-874a-45cb-ad1f-6a4fcef61305"
+						name="Login">
+						</testmodule>
+						<teardown
+						id="648188b5-61f1-4159-814f-0818f7f66d85"
+						name="teardown1">
+							<testmodule
+							id="035214fa-dfc4-40a6-9b86-4ebbf230835f"
+							name="GoodsReceiptTeardown">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="d7498a6a-fa23-46f9-a0fb-ab7f6568ea39"
+					name="CreateNewItemWizard">
+						<testmodule
+						id="3416f848-b24c-4edb-93fb-71eaba221a39"
+						name="Login">
+						</testmodule>
+						<testmodule
+						id="9314dc57-3928-49d4-a1c0-a1fdf3517654"
+						name="CreateNewItem">
 						</testmodule>
 					</testcase>
 				</testcase>
@@ -66,7 +168,7 @@
 			id="8642e7a1-4394-4ec1-96e7-613cfc8f2cce">
 			</testcontainer>
 			<testcontainer
-			id="b7566ef0-5338-4d55-a1a5-4998c9133c96">
+			id="d7498a6a-fa23-46f9-a0fb-ab7f6568ea39">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

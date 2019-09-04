@@ -13,6 +13,7 @@
     <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
     <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>f4448578-7da3-4001-a6a6-33cfcc4b52a0</projectdefaultrepository>
+    <StartAction>Project</StartAction>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -119,11 +120,83 @@
     <Compile Include="AssemblyInfo.cs">
       <id>9599664b-c65b-4784-9151-1a7cffe1e81f</id>
     </Compile>
+    <Compile Include="CreateNewItem.cs">
+      <BoundTo>f636f7a1-34ba-42a5-b8c6-19aaba9dbd6c</BoundTo>
+      <DependentUpon>CreateNewItem.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aa480ad7-7172-4e0e-90ed-7af490d640dd</id>
+    </Compile>
+    <Compile Include="CreateNewItem.UserCode.cs">
+      <BoundTo>f636f7a1-34ba-42a5-b8c6-19aaba9dbd6c</BoundTo>
+      <DependentUpon>CreateNewItem.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>309f594e-a8b3-42f3-94ca-f7aeec40dbbd</id>
+    </Compile>
+    <Compile Include="CreateReleasePOTeardown.cs">
+      <BoundTo>9336ba05-a028-4eb2-808c-8b79c0409eb6</BoundTo>
+      <DependentUpon>CreateReleasePOTeardown.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f2cf2a98-ee1e-47d0-8402-4357527de253</id>
+    </Compile>
+    <Compile Include="CreateReleasePOTeardown.UserCode.cs">
+      <BoundTo>9336ba05-a028-4eb2-808c-8b79c0409eb6</BoundTo>
+      <DependentUpon>CreateReleasePOTeardown.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bdc66c0b-fabe-4ba6-b6dc-5c40f83bd6d2</id>
+    </Compile>
+    <Compile Include="CreateRequisition.cs">
+      <BoundTo>d39ebd64-c7be-4823-b7ab-06582168595a</BoundTo>
+      <DependentUpon>CreateRequisition.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>70a8ba48-325b-4b24-b68b-4bd60ad05818</id>
+    </Compile>
+    <Compile Include="CreateRequisition.UserCode.cs">
+      <BoundTo>d39ebd64-c7be-4823-b7ab-06582168595a</BoundTo>
+      <DependentUpon>CreateRequisition.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a0c0d5d6-d8a3-4960-be91-f9ab7ade9e6b</id>
+    </Compile>
     <Compile Include="Genesis.Provider.Legacy.Desktop.RanorexTestsRepository.cs">
       <BoundTo>f4448578-7da3-4001-a6a6-33cfcc4b52a0</BoundTo>
       <DependentUpon>Genesis.Provider.Legacy.Desktop.RanorexTestsRepository.rxrep</DependentUpon>
       <RepositoryCode>true</RepositoryCode>
       <id>85202334-2cfb-400f-b98b-f63b92b90117</id>
+    </Compile>
+    <Compile Include="GoodsReceipt.cs">
+      <BoundTo>790806f9-dc17-49c0-8a4b-383467b61e29</BoundTo>
+      <DependentUpon>GoodsReceipt.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9abd6ae4-eada-46b7-9343-254d91886a80</id>
+    </Compile>
+    <Compile Include="GoodsReceipt.UserCode.cs">
+      <BoundTo>790806f9-dc17-49c0-8a4b-383467b61e29</BoundTo>
+      <DependentUpon>GoodsReceipt.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4bddc602-de0d-426d-abde-fdbbe3ae578f</id>
+    </Compile>
+    <Compile Include="GoodsReceiptTeardown.cs">
+      <BoundTo>0fc61afa-dde1-43aa-947f-fc7d5bce22c5</BoundTo>
+      <DependentUpon>GoodsReceiptTeardown.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eb286a5b-ab5b-4d23-8191-d512458f531e</id>
+    </Compile>
+    <Compile Include="GoodsReceiptTeardown.UserCode.cs">
+      <BoundTo>0fc61afa-dde1-43aa-947f-fc7d5bce22c5</BoundTo>
+      <DependentUpon>GoodsReceiptTeardown.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b646be1f-e1e7-4eb8-b4f4-5297b0fa35ae</id>
+    </Compile>
+    <Compile Include="Login.cs">
+      <BoundTo>a4406425-1713-4774-8544-1eb507db0650</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e66c24e0-0a03-451c-bb05-18f31445dd04</id>
+    </Compile>
+    <Compile Include="Login.UserCode.cs">
+      <BoundTo>a4406425-1713-4774-8544-1eb507db0650</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fa233876-22a7-4f91-a965-f03fd47b9173</id>
     </Compile>
     <Compile Include="Program.cs">
       <id>326313ce-bfcf-4439-b5c1-d298953d9c2d</id>
@@ -140,11 +213,54 @@
       <UserCode>true</UserCode>
       <id>3cd9b78e-faa0-45dd-9dc2-20ab64459191</id>
     </Compile>
+    <Compile Include="ReleaseRequisition.cs">
+      <BoundTo>da098861-db74-430e-81aa-6c65b500c359</BoundTo>
+      <DependentUpon>ReleaseRequisition.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a8092d37-f450-4138-953d-497306863c1f</id>
+    </Compile>
+    <Compile Include="ReleaseRequisition.UserCode.cs">
+      <BoundTo>da098861-db74-430e-81aa-6c65b500c359</BoundTo>
+      <DependentUpon>ReleaseRequisition.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8e1601ac-262c-41f3-a27d-04f05bfab5dd</id>
+    </Compile>
+    <Compile Include="Setup.cs">
+      <BoundTo>16b8fb12-1281-4d0d-9348-f52f75210c14</BoundTo>
+      <DependentUpon>Setup.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a3eff7f2-8662-474f-871f-d9c245fdbb17</id>
+    </Compile>
+    <Compile Include="Setup.UserCode.cs">
+      <BoundTo>16b8fb12-1281-4d0d-9348-f52f75210c14</BoundTo>
+      <DependentUpon>Setup.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a4e4a2e0-d50a-4799-bb95-3426660fa62b</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
       <id>7d499932-160f-4c63-995a-92ddfdc4a6e1</id>
     </None>
+    <None Include="CreateNewItem.rxrec">
+      <BoundTo>f4448578-7da3-4001-a6a6-33cfcc4b52a0</BoundTo>
+      <id>f636f7a1-34ba-42a5-b8c6-19aaba9dbd6c</id>
+      <recordtableid>14860930-f1a5-4fc1-be5b-fa450d922585</recordtableid>
+    </None>
+    <None Include="CreateReleasePOTeardown.rxrec">
+      <BoundTo>f4448578-7da3-4001-a6a6-33cfcc4b52a0</BoundTo>
+      <id>9336ba05-a028-4eb2-808c-8b79c0409eb6</id>
+      <recordtableid>98e8dbfe-7168-4de7-bb00-c127928fb086</recordtableid>
+    </None>
+    <None Include="CreateRequisition.rxrec">
+      <BoundTo>f4448578-7da3-4001-a6a6-33cfcc4b52a0</BoundTo>
+      <id>d39ebd64-c7be-4823-b7ab-06582168595a</id>
+      <recordtableid>2247c667-5433-4d24-a630-8c681679b07a</recordtableid>
+    </None>
+    <Content Include="Genesis.Provider.Legacy.Desktop.RanorexTests.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>89e3c68f-358c-4750-927b-d34047ee7f79</id>
+    </Content>
     <None Include="Genesis.Provider.Legacy.Desktop.RanorexTestsRepository.rximg">
       <BoundTo>f4448578-7da3-4001-a6a6-33cfcc4b52a0</BoundTo>
       <DependentUpon>Genesis.Provider.Legacy.Desktop.RanorexTestsRepository.rxrep</DependentUpon>
@@ -160,6 +276,31 @@
       <BoundTo>f4448578-7da3-4001-a6a6-33cfcc4b52a0</BoundTo>
       <id>79cf1b62-7190-4f32-8874-0f66eb357206</id>
       <recordtableid>c2e15e46-7564-46df-8a4d-481f1405568c</recordtableid>
+    </None>
+    <None Include="GoodsReceipt.rxrec">
+      <BoundTo>f4448578-7da3-4001-a6a6-33cfcc4b52a0</BoundTo>
+      <id>790806f9-dc17-49c0-8a4b-383467b61e29</id>
+      <recordtableid>48feea21-fdbb-4ee0-b7df-f3175c190670</recordtableid>
+    </None>
+    <None Include="GoodsReceiptTeardown.rxrec">
+      <BoundTo>f4448578-7da3-4001-a6a6-33cfcc4b52a0</BoundTo>
+      <id>0fc61afa-dde1-43aa-947f-fc7d5bce22c5</id>
+      <recordtableid>304d4099-ea00-46c2-ba5f-35ef11f6b4ee</recordtableid>
+    </None>
+    <None Include="Login.rxrec">
+      <BoundTo>f4448578-7da3-4001-a6a6-33cfcc4b52a0</BoundTo>
+      <id>a4406425-1713-4774-8544-1eb507db0650</id>
+      <recordtableid>d69f0630-96ff-4243-9032-f564b7ded20b</recordtableid>
+    </None>
+    <None Include="ReleaseRequisition.rxrec">
+      <BoundTo>f4448578-7da3-4001-a6a6-33cfcc4b52a0</BoundTo>
+      <id>da098861-db74-430e-81aa-6c65b500c359</id>
+      <recordtableid>654db7d1-ec35-4e54-97ab-755ba2ea2f1c</recordtableid>
+    </None>
+    <None Include="Setup.rxrec">
+      <BoundTo>f4448578-7da3-4001-a6a6-33cfcc4b52a0</BoundTo>
+      <id>16b8fb12-1281-4d0d-9348-f52f75210c14</id>
+      <recordtableid>4a188b4d-68a4-4fd5-8d0e-879f4018da39</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>
